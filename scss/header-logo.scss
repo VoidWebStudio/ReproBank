@@ -8,12 +8,14 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-top: 26px;
 
 .header-logo__number{
-  font-size: 48px;
-  line-height: 55px;
   color: #004861;
-  font-weight: 300;
+  font-family:"Segoe UI Regular",sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 55px;
 }
 
 .header-logo__pay{
@@ -24,22 +26,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 26px 0 23px;
+
     background-color: #005f84;
-    color: #ffffff;
-    font-family: "Segoe UI";
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 55px;
-    letter-spacing: -0.44px;
     border-radius: 10px;
     span{
-      display: inline;
+      color: #ffffff;
+      font-family: "Segoe UI Regular",sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 55px;
+      letter-spacing: -0.44px;
+      display:block;
+      padding: 0 0 0 23px;
     }
-    img{
+    i{
+      color: #ffffff;
       padding-left: 15px;
-      height: 100%;
+      padding-right: 26px;
+      padding-top: 4px;
     }
   }
 }
+}
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 }
