@@ -5,18 +5,30 @@ $font-family: 'Open Sans', sans-serif;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     padding-top: 6.4rem;
+=======
+    padding-top: 64px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     a{
       margin-top: -10%;
     }
     h1{
       color: #005f84;
       font-family: $font-family;
+<<<<<<< HEAD
       font-size: 2.8rem;
       font-weight: 400;
       line-height: 2.8rem;
       padding-bottom: 1.3rem;
       padding-top: 6.4rem;
+=======
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 28px;
+      padding-bottom: 13px;
+      padding-top: 64px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     }
   }
   .answer-section{
@@ -24,25 +36,43 @@ $font-family: 'Open Sans', sans-serif;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     padding-bottom: 6rem;
+=======
+    padding-bottom: 60px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     .accordion {
       display: flex;
       justify-content: space-between;
       align-items: center;
       cursor: pointer;
+<<<<<<< HEAD
       padding: 1.8rem;
       width: 100%;
       border: none;
       border-radius: 1rem;
+=======
+      padding: 18px;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
       background-color: #ebf6f7;
       text-align: left;
       outline: none;
       color: #006085;
       font-family: $font-family;
+<<<<<<< HEAD
       font-size: 1.7rem;
       font-weight: 700;
       line-height: 2.8rem;
       margin-bottom: 1rem;
+=======
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 10px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     }
     .active-answer, .accordion:hover,:focus,:active {
       border: none!important;
@@ -58,7 +88,10 @@ $font-family: 'Open Sans', sans-serif;
   }
 
   .rotate-image{
+<<<<<<< HEAD
  
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     img{
       transform: rotate(180deg);
       transition: 300ms ease all;
@@ -75,7 +108,11 @@ $font-family: 'Open Sans', sans-serif;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   .panel {
+<<<<<<< HEAD
     padding: 0 1.8rem;
+=======
+    padding: 0 18px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     display: none;
     background-color: #ffffff;
     overflow: hidden;
@@ -83,9 +120,15 @@ $font-family: 'Open Sans', sans-serif;
     p{
       color: #000000;
       font-family: $font-family;
+<<<<<<< HEAD
       font-size: 1.7rem;
       font-weight: 400;
       line-height: 2.8rem;
+=======
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 28px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
       display: flex;
       align-items: center;
     }
@@ -99,18 +142,27 @@ $font-family: 'Open Sans', sans-serif;
         border-bottom: 1px dashed #005f84;
         color: #005f84;
         font-family: $font-family;
+<<<<<<< HEAD
         font-size: 1.5rem;
         font-weight: 400;
         line-height: 2.8rem;
+=======
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
       }
 
     }
   }
+<<<<<<< HEAD
 
   .rotate{
     margin-left: 1rem;
   }
   
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
   @keyframes scale-in-center {
     0% {
       -webkit-transform: scale(0);

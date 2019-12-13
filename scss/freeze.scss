@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'mixins';
 
 $font-family: 'Open Sans', sans-serif;
@@ -6,16 +7,22 @@ $font-family: 'Open Sans', sans-serif;
   display: none;
   
 }
+=======
+$font-family: 'Open Sans', sans-serif;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 .container-freeze{
   background-image: url("../img/bg-kid.png");
   background-size: contain;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   @include respond(tab-port) {
     background-image: none;
 
 
   }
   
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
   .container-main{
     display: flex;
     .freeze-main{
@@ -24,26 +31,42 @@ $font-family: 'Open Sans', sans-serif;
       justify-content: flex-start;
       align-items: flex-start;
       .main-link{
+<<<<<<< HEAD
         padding-top: 7.4rem;
+=======
+        padding-top: 74px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         a{
           text-decoration: none;
           span{
             opacity: 0.7;
             color: #767676;
             font-family:$font-family;
+<<<<<<< HEAD
             font-size: 1.3rem;
             font-weight: 400;
             line-height: 1.6rem;
+=======
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
           i{
             opacity: 0.7;
             color: #767676;
+<<<<<<< HEAD
             font-size:1rem;
             padding-left: 1rem;
+=======
+            font-size:10px;
+            padding-left: 10px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
         }
       }
       .main-text{
+<<<<<<< HEAD
         padding-top: 3.3rem;
         h1{
           color: #005c80;
@@ -51,13 +74,28 @@ $font-family: 'Open Sans', sans-serif;
           font-size: 3.2rem;
           font-weight: 400;
           line-height: 3.6rem;
+=======
+        padding-top: 33px;
+        h1{
+          color: #005c80;
+          font-family: $font-family;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 36px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
         p{
           color: #000000;
           font-family: $font-family;
+<<<<<<< HEAD
           font-size: 2rem;
           font-weight: 400;
           line-height: 3.2rem;
+=======
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
       }
       .freeze-info{
@@ -65,6 +103,7 @@ $font-family: 'Open Sans', sans-serif;
         justify-content: space-around;
         align-items: center;
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+<<<<<<< HEAD
         border-radius: 2rem;
         background-color: #ffffff;
         width: 100%;
@@ -73,11 +112,18 @@ $font-family: 'Open Sans', sans-serif;
           flex-direction: column;
 
       }
+=======
+        border-radius: 20px;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 31px 0;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         .text-block-img{
           display: flex;
           justify-content: flex-start;
           align-items: flex-start;
           flex-direction: column;
+<<<<<<< HEAD
           padding-left: 1.6rem;
           h1{
             color: #006085;
@@ -85,14 +131,29 @@ $font-family: 'Open Sans', sans-serif;
             font-size: 2rem;
             font-weight: 700;
             line-height: 3.2rem;
+=======
+          padding-left: 16px;
+          h1{
+            color: #006085;
+            font-family: $font-family;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 32px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
             margin: 0;
           }
           p{
             color: #005e83;
             font-family: $font-family;
+<<<<<<< HEAD
             font-size: 1.7rem;
             font-weight: 400;
             line-height: 2rem;
+=======
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
             margin: 0;
           }
         }
@@ -101,22 +162,38 @@ $font-family: 'Open Sans', sans-serif;
           justify-content: flex-start;
           align-items: flex-start;
           img{
+<<<<<<< HEAD
             max-height: 8rem;
           }
           p{
             padding-top: 1.1rem;
+=======
+            max-height: 80px;
+          }
+          p{
+            padding-top: 11px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
         }
         .star{
           display: flex;
           justify-content: flex-start;
           align-items: flex-start;
+<<<<<<< HEAD
           padding-bottom: 2rem;
           img{
             max-height: 7rem;
           }
           p{
             padding-top: 1.1rem;
+=======
+          padding-bottom: 20px;
+          img{
+            max-height: 70px;
+          }
+          p{
+            padding-top: 11px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
         }
       }
@@ -124,6 +201,7 @@ $font-family: 'Open Sans', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
         padding-top: 3rem;
         @include respond(phone) {
          margin-left: 2rem;
@@ -138,11 +216,21 @@ $font-family: 'Open Sans', sans-serif;
             p{
               font-size: 1.6rem;
             }
+=======
+        padding-top: 30px;
+        ul{
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          li{
+            list-style-image: url("../img/marker.png");
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
         }
       }
       .freeze-consultation{
         a{
+<<<<<<< HEAD
           padding: 2.1rem 3.2rem 1.7rem 3.1rem;
           border-radius: .4rem;
           border: .2rem solid #006292;
@@ -163,6 +251,24 @@ $font-family: 'Open Sans', sans-serif;
             font-weight: bold;
             color: #006085;
             padding-left: 1.2rem;
+=======
+          padding: 21px 32px 17px 31px;
+          border-radius: 4px;
+          border: 2px solid #006292;
+          text-decoration: none;
+          span{
+            color: #006085;
+            font-family: $font-family;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 52px;
+          }
+          i{
+            font-size: 10px;
+            font-weight: bold;
+            color: #006085;
+            padding-left: 12px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
         }
       }

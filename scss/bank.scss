@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @import 'mixins';
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 $font-family2: "Segoe UI Regular",sans-serif;
 $font-family: 'Open Sans', sans-serif;
 .container-bank{
@@ -6,6 +9,7 @@ $font-family: 'Open Sans', sans-serif;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   @include respond(tab-port) {
     background-size: auto;
     background-position: center;
@@ -15,12 +19,15 @@ $font-family: 'Open Sans', sans-serif;
     background-position: top;
 
   }
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
   .container-main-bank{
     .bank-first{
       padding-top: 216px;
       h1{
         color: #005c80;
         font-family: $font-family2;
+<<<<<<< HEAD
         font-size: 3.2rem;
         font-weight: 400;
         line-height: 3.6rem;
@@ -28,15 +35,31 @@ $font-family: 'Open Sans', sans-serif;
       }
       ul{
         padding-left: 2rem;
+=======
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        padding-bottom: 30px;
+      }
+      ul{
+        padding-left: 20px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         width: 40%;
         li{
           list-style-image: url("../img/marker.png");
           color: #000000;
           font-family:$font-family;
+<<<<<<< HEAD
           font-size: 2rem;
           font-weight: 400;
           line-height: 3.2rem;
           padding-bottom: 3.4rem;
+=======
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px;
+          padding-bottom: 34px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 
         }
       }
@@ -45,6 +68,7 @@ $font-family: 'Open Sans', sans-serif;
       h1{
         color: #005c80;
         font-family: $font-family2;
+<<<<<<< HEAD
         font-size: 3.2rem;
         font-weight: 400;
         line-height: 3.6rem;
@@ -62,6 +86,25 @@ $font-family: 'Open Sans', sans-serif;
             max-height: 4.5rem;
             margin-top: 1.5rem;
             margin-right: 2.4rem;
+=======
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        padding-bottom: 30px;
+      }
+      ul{
+        width: 57%;
+        padding-left: 20px;
+        li{
+          display: flex;
+            list-style: none;
+            padding-bottom: 34px;
+
+          img{
+            max-height: 45px;
+            margin-top: 15px;
+            margin-right: 24px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           }
           .bank-info-text{
             display: flex;
@@ -72,9 +115,15 @@ $font-family: 'Open Sans', sans-serif;
           h1{
             color: #005c80;
             font-family: $font-family;
+<<<<<<< HEAD
             font-size: 2.4rem;
             font-weight: 700;
             line-height: 3.2rem;
+=======
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
             margin: 0;
             padding: 0;
 
@@ -83,6 +132,7 @@ $font-family: 'Open Sans', sans-serif;
           p{
             color: #000000;
             font-family: $font-family;
+<<<<<<< HEAD
             font-size: 1.7rem;
             font-weight: 400;
             line-height: 2.8rem;
@@ -97,12 +147,25 @@ $font-family: 'Open Sans', sans-serif;
           .inside-list{
             padding-left: 2rem;
             padding-top: 2.8rem;
+=======
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 28px;
+            padding-top: 13px;
+            margin: 0;
+          }
+
+          .inside-list{
+            padding-left: 20px;
+            padding-top: 28px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
             width: 100%;
             li{
               display: list-item;
               list-style-image: url("../img/marker.png");
               color: #000000;
               font-family: $font-family;
+<<<<<<< HEAD
               font-size: 1.7rem;
               font-weight: 400;
               line-height: 2.8rem;
@@ -112,11 +175,19 @@ $font-family: 'Open Sans', sans-serif;
               @include respond(phone) {
                 width: 100%;
              }
+=======
+              font-size: 17px;
+              font-weight: 400;
+              line-height: 28px;
+              padding-bottom: 25px;
+              margin: 0;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
             }
           }
         }
       }
       a{
+<<<<<<< HEAD
         padding: 2.1rem 3.2rem 1.7rem 3.1rem;
         border-radius: 4px;
         border: .2rem solid #006292;
@@ -140,6 +211,25 @@ $font-family: 'Open Sans', sans-serif;
           font-weight: bold;
           color: #006085;
           padding-left: 1.2rem;
+=======
+        padding: 21px 32px 17px 31px;
+        border-radius: 4px;
+        border: 2px solid #006292;
+        text-decoration: none;
+        margin-left: 80px;
+        span{
+          color: #006085;
+          font-family: $font-family;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 52px;
+        }
+        i{
+          font-size: 10px;
+          font-weight: bold;
+          color: #006085;
+          padding-left: 12px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
       }
     }
@@ -148,11 +238,16 @@ $font-family: 'Open Sans', sans-serif;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+<<<<<<< HEAD
       padding-top: 6rem;
       padding-bottom: 12.5rem;
       @include respond(phone) {
         padding: 3rem;
     }
+=======
+      padding-top: 60px;
+      padding-bottom: 125px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
       .bank-save-header{
         display: flex;
         justify-content: center;
@@ -161,26 +256,39 @@ $font-family: 'Open Sans', sans-serif;
         h1{
           color: #005f84;
           font-family: $font-family2;
+<<<<<<< HEAD
           font-size: 3.2rem;
           font-weight: 400;
           line-height: 3.5rem;
           padding-bottom: 5.8rem;
+=======
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 35.98px;
+          padding-bottom: 58px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
       }
       .bank-save-content{
         display: flex;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
         @include respond(tab-port) {
           display: none;
       }
         img{
           max-width: 130rem;
+=======
+        img{
+          max-width: 1300px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
           width: 100%;
         }
       }
     }
   }
+<<<<<<< HEAD
 }
 
 .bank{
@@ -243,4 +351,6 @@ $font-family: 'Open Sans', sans-serif;
      }
   }
 }
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 }

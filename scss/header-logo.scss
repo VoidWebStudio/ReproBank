@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'mixins';
 
 * {
@@ -103,11 +104,68 @@ ul{
   }
 }
 
+=======
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-logo{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 26px;
+
+.header-logo__number{
+  a{
+    color: #004861;
+    font-family:"Segoe UI Regular",sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 55px;
+    text-decoration: none;
+  }
+
+}
+
+.header-logo__pay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #005f84;
+    border-radius: 10px;
+    span{
+      color: #ffffff;
+      font-family: "Segoe UI Regular",sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 55px;
+      letter-spacing: -0.44px;
+      display:block;
+      padding: 0 0 0 23px;
+    }
+    i{
+      color: #ffffff;
+      padding-left: 15px;
+      padding-right: 26px;
+      padding-top: 4px;
+    }
+  }
+}
+}
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 @font-face {
   font-family: 'Segoe UI Regular';
   font-style: normal;
   font-weight: normal;
   src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
+<<<<<<< HEAD
 }
 .navbar-toggler{
   border: none !important;
@@ -121,4 +179,6 @@ ul{
 button:focus{
   outline-color: #005f84 !important;
 
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 }
