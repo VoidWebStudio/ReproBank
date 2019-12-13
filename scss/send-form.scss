@@ -1,0 +1,179 @@
+@import 'mixins';
+
+$font-family2: "Segoe UI Regular",sans-serif;
+$font-family: 'Open Sans', sans-serif;
+.container-send-form{
+  background-color: #eef5f6;
+  background-size: cover;
+  padding-top: 4.2rem;
+  .send-form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+      color: #00587f;
+      font-family: $font-family;
+      font-size: 2.8rem;
+      font-weight: 400;
+      line-height: 3.2rem;
+    }
+    span{
+      color: #515151;
+      font-family:$font-family;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 2.4rem;
+      padding-bottom: .5rem;
+    }
+    input{
+      border-radius: 4px;
+      border: 1px solid #dddddd;
+      background-color: #ffffff;
+      padding: 1.9rem 0 1.5rem 1.2rem;
+      font-size: 15px;
+      
+
+    }
+    .send-form-list{
+      display: flex;
+      flex-direction: column;
+      .name-input{
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .contact-input{
+        display: flex;
+        padding-top: 1.8rem;
+        padding-bottom: 2rem;
+        @include respond(litte-phone) {
+          flex-direction: column;
+      }
+        @include respond(phone) {
+
+          flex-direction: column;
+      }
+
+        .tel-input{
+          display: flex;
+          flex-direction: column;
+          margin-right: 2rem;
+          @include respond(phone) {
+            margin: 0;
+        }
+          input{
+            width:25.7rem;
+            height: 5rem;
+            @include respond(phone) {
+              width:100% !important;           
+              height: 5rem;
+              font-size: 1.5rem;
+          }
+          }
+        }
+        .mail-input{
+          display: flex;
+          flex-direction: column;
+          input{
+            
+            height: 5rem;
+            @include respond(phone) {
+          
+              width: 34rem; 
+          }
+ 
+
+          }
+          
+
+        }
+      }
+      .area-input{
+        display: flex;
+        flex-direction: column;
+        textarea{
+          resize: none;
+          border-radius: .4rem;
+          border: 1px solid #dddddd;
+          background-color: #ffffff;
+          font-size: 14px;
+          width: 90%;
+
+
+
+        }
+      }
+    }
+    .check-box-input{
+      padding-top: 2.1rem;
+      
+      label{
+        color: #48423b;
+        font-family: $font-family2;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 2.4rem;
+        a{
+          color: #005f84;
+          text-decoration: none;
+        }
+      }
+    }
+    .send-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4rem;
+      padding-top: 1.6rem;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .4rem;
+        border: .2rem solid #006292;
+        padding: 2.1rem 4.2rem 1.7rem 4.2rem;
+        text-decoration: none;
+        span{
+          color: #006085;
+          font-family: $font-family;
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
+        i{
+          padding-left: 1rem;
+          color: #006085;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+input{
+  @include respond(litte-phone) {
+    width: 100% !important;
+
+}
+}
+
+.custom-control-label::before{position: absolute;
+  top: .25rem;
+  left: -2.5rem !important;
+  display: block;
+  width: 1.8rem !important;
+
+  height: 1.8rem !important;
+  pointer-events: none;
+  content: "";
+  background-color: #fff;
+  border: #adb5bd solid 1px;}
+  .custom-control-label::after {
+    position: absolute;
+    top: .25rem;
+    left: -2.5rem !important;
+    display: block;
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+    content: "";
+    background: no-repeat 50%/50% 50%;
+}

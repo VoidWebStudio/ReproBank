@@ -1,0 +1,133 @@
+@import 'mixins';
+$font-family: 'Open Sans', sans-serif;
+.box2{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+    .icon{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        
+        img{
+          width: 7rem;
+          height: 7rem;
+          object-fit: contain;
+          margin-right: 2rem;
+
+        }
+        span{
+        display:flex;
+        padding: 2rem;
+        align-items: center;
+
+        }
+        p{
+          font-size: 1.6rem;
+          color: #006085;
+        }
+        i {
+      font-size: 50px;
+      color: #005c80;
+      }
+    }
+    
+  }
+  .factors-header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20rem;
+    padding-bottom: 4.9rem;
+    @include respond(phone) {
+     padding-top: 0;
+     padding-bottom: 0;
+     }
+    h1{
+      color: #005c80;
+      font-family: $font-family;
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 3.6rem;
+      text-align: center;
+    }
+
+  }
+
+  .container-factors2{
+      display: none;
+      @include respond(phone) { 
+          
+     display: block;
+    }
+  }
+
+  .factors-modern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 13rem;
+    @include respond(phone) {
+      padding-bottom: 5rem;
+      
+        }
+    h1{
+      color: #006085;
+      font-family: $font-family;
+      font-size: 2.4rem;
+      font-weight: 400;
+      line-height: 3.2rem;
+      text-align: center;
+              
+    @include respond(litte-phone) {
+      text-align: left !important;
+
+        }
+    }
+    p{
+      color: #000000;
+      font-family: $font-family;
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 3.2rem;
+      text-align: center;
+      padding-bottom: 2.4rem;
+    }
+    a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 5.1rem 0 3.1rem;
+      border-radius: 4px;
+      border: .2rem solid #006292;
+      text-decoration: none;
+      span{
+        color: #006085;
+        font-family: $font-family;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 5.2rem;
+      }
+      i{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #006085;
+        padding-left: 1.2rem;
+        padding-top: .5rem;
+      }
+    }
+  }
+  .icon{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+  }
+

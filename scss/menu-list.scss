@@ -1,10 +1,13 @@
+@import 'mixins';
 $font-family: 'Open Sans', sans-serif;
 .container{
   max-width: 1300px!important;
 }
 .container-navigation{
-  padding-top: 38px;
+  padding-top: 3.8rem;
   margin-bottom: -2%;
+  position: relative;
+  z-index: 1;
   .navigation{
     display: flex;
     justify-content: center;
@@ -16,9 +19,9 @@ $font-family: 'Open Sans', sans-serif;
       list-style: none;
       width: 100%;
       background-color: #eaf5f6;
-      padding:32px 17px 24px 20px;
+      padding:3.2rem 1.7rem 2.4rem 2rem;
       border-radius: 10px;
-      box-shadow: 3px 4px 16px rgba(0, 0, 0, 0.17);
+      box-shadow: .3rem .4rem 1.6rem rgba(0, 0, 0, 0.17);
       margin: 0;
       li{
         display: flex;
@@ -27,12 +30,84 @@ $font-family: 'Open Sans', sans-serif;
         a{
           color: #000000;
           font-family:$font-family;
-          font-size: 20px;
+          font-size: 2rem;
           font-weight: 400;
-          line-height: 20px;
+          line-height: 2rem;
           letter-spacing: 0.14px;
+          text-decoration: none;
         }
       }
     }
   }
+}
+
+.navbar-expand-lg{
+
+    background: #eaf5f6 !important;
+   }
+
+.navbar{
+  background-color: #eaf5f6 !important;
+  box-shadow: .3rem .4rem 1.6rem rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+}
+
+.nav-link{
+  color: #000000;
+  font-family:$font-family;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.14px;
+  text-decoration: none;
+  padding-bottom: 2rem !important;
+
+
+}
+.navbar-toggler{
+  font-size: 2rem !important;
+}
+
+.header-logo1{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2.6rem 0;
+  display: none;
+       
+  @include respond(tab-extra) {
+      
+    display: block;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+}
+
+.navbar-expand-lg {  
+@include respond(tab-extra) {
+    
+  padding:2rem !important;
+  flex-direction: column !important;
+  background: #fff
+   !important;
+}
+
+}
+.navbar-nav{
+  
+  @include respond(tab-land) {
+ 
+    flex-direction: column !important;}
+    
+  }
+
+.navbar-expand-lg {  
+@include respond(tab-land) {
+    
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  background:  #fff !important;
+
+}
 }

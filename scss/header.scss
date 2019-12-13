@@ -1,12 +1,20 @@
+@import 'mixins';
 $font-family: 'Open Sans', sans-serif;
+
 .header-container{
   background-color: #eff5f6;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @include respond(tab-extra) {
+    display: none;
+ }
+
   .header {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    font-size: 1.6rem;
 
     .header__phone{
       display: flex;
@@ -32,7 +40,7 @@ $font-family: 'Open Sans', sans-serif;
         color: black;
         font-family: $font-family;
         i{
-          padding-right: 7px;
+          padding-right: .7rem;
         }
       }
 
@@ -47,7 +55,7 @@ $font-family: 'Open Sans', sans-serif;
         color: black;
         font-family: $font-family;
         i{
-          padding-right: 7px;
+          padding-right: .7rem;
         }
       }
 
@@ -57,7 +65,7 @@ $font-family: 'Open Sans', sans-serif;
       justify-content: center;
       align-items: center;
       i{
-        padding-right: 7px;
+        padding-right: .7rem;
       }
       p{
         margin: 0;
@@ -74,4 +82,20 @@ $font-family: 'Open Sans', sans-serif;
       }
     }
   }
+}
+
+.navbar-expand-lg .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 3rem;
+
+}
+
+.header-logo__logo2{
+  display: none;
+  @include respond(tab-extra) {
+    display: block;
+}
 }

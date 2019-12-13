@@ -1,0 +1,198 @@
+@import 'mixins';
+$font-family: 'Open Sans', sans-serif;
+
+.container-footer{
+  background-color: #00587f;
+  .footer-last {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: #00587f;
+    color: #9bb4c3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @include respond(phone){ 
+      flex-direction: column;  
+
+  }
+    span{
+      color: #fff;
+      font-family: $font-family;
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 3.2rem;
+      @include respond(litte-phone) {
+      font-size: 1.2rem;
+    }
+      
+    }
+    .footer-contact-info{
+      display: flex;
+      justify-content:flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-top: 5rem;
+      .footer-last_adress{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        text-align: left;
+        width: 106%;
+      }
+      .footer-last_numb{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        a{
+          color: #d2dce3;
+          font-family: $font-family;
+          font-size: 2.4rem;
+          font-weight:lighter;
+          line-height: 3.2rem;
+          text-decoration: none;
+        }
+      }
+      .footer-last_date{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        text-align: left;
+        width: 95%;
+      }
+    }
+
+    .footer-last__arrow1 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color:#9bb4c3;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-decoration: none;
+        i{
+          color: #518da8;
+          padding-right: 1rem;
+        }
+      }
+
+    }
+
+    .footer-last__arrow2 {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      color: #9bb4c3;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        i{
+          color: #518da8;
+          padding-right: 1rem;
+        }
+      }
+    }
+
+    .footer-last__arrow3 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        i{
+          color: #518da8;
+          padding-right: 10px;
+        }
+      }
+
+    }
+
+    .footer-last__arrow4 {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      color: #9bb4c3;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        i{
+          color: #518da8;
+          padding-right: 1rem;
+        }
+      }
+
+    }
+
+    .footer-last__arrow5 {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      color: #9bb4c3;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        i{
+          color: #518da8;
+          padding-right: 1rem;
+        }
+      }
+    }
+
+    .footer-last__icons{
+      display: flex;
+      padding-right: 2rem;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: row;
+      color: white;
+      font-size: 3rem;
+      flex-basis: 5rem;
+      padding-top: 1.6rem;
+      a{
+        text-decoration: none;
+        i{
+          color: white;
+          padding-right: 1rem;
+        }
+      }
+
+
+
+    }
+
+    .footer-last__tree {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      @include respond(phone) {
+        float: left;
+        display: none;
+        
+    }
+
+      .arrow-top-link{
+        padding-bottom: 6rem;
+        float: right;
+      }
+    }
+    .footer-last_date{
+      color: #347796;
+
+    }
+  }
+}
+
