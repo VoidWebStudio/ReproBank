@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "repro",
+=======
   "name": "",
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,9 +16,15 @@
     "webticker": "^3.0.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-concat": "^2.6.1",
+=======
     "gulp-autoprefixer": "6.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-pug": "^4.0.1",
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
     "gulp-server-livereload": "^1.9.2"
   },
   "browserslist": [

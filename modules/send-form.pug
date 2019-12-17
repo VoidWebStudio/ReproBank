@@ -1,0 +1,30 @@
+.container-fluid.container-send-form
+    .container
+        .row
+            .col-lg-12.container-main-send-form
+                .send-form-main
+                    h1 Задать свой вопрос
+                    .send-form-list
+                        .name-input
+                            span Имя
+                            input(type="text")
+                        .contact-input
+                            .tel-input
+                                span Телефон
+                                input(type="tel" placeholder="+7")
+                            .mail-input
+                                span Email
+                                input(type="email")
+                        .area-input
+                            span Текст вопроса
+                            textarea( rows="6" cols="50")
+                    .custom-control.custom-checkbox.mb-3.check-box-input
+                        input#customCheck.custom-control-input(type='checkbox', name='example1')
+                        label.custom-control-label(for='customCheck') Заполняя форму Вы подтверждаете свое согласие на обработку
+                            br
+                            | хранение персональных данных в соответствии с
+                            a(href="#")  пользовательским соглашением.
+                    .send-button
+                        a(href="#")
+                            span Отправить
+                            i.fas.fa-chevron-right

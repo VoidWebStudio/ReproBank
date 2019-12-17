@@ -1,12 +1,31 @@
+<<<<<<< HEAD
+@import 'mixins';
+$font-family: 'Open Sans', sans-serif;
+
+.header-container{
+  background-color: #eff5f6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @include respond(tab-extra) {
+    display: none;
+ }
+
+=======
 $font-family: 'Open Sans', sans-serif;
 .header-container{
   background-color: #eff5f6;
   padding-top: 10px;
   padding-bottom: 10px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
   .header {
     display: flex;
     justify-content: space-between;
     text-align: center;
+<<<<<<< HEAD
+    font-size: 1.6rem;
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 
     .header__phone{
       display: flex;
@@ -32,7 +51,11 @@ $font-family: 'Open Sans', sans-serif;
         color: black;
         font-family: $font-family;
         i{
+<<<<<<< HEAD
+          padding-right: .7rem;
+=======
           padding-right: 7px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
       }
 
@@ -47,7 +70,11 @@ $font-family: 'Open Sans', sans-serif;
         color: black;
         font-family: $font-family;
         i{
+<<<<<<< HEAD
+          padding-right: .7rem;
+=======
           padding-right: 7px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
         }
       }
 
@@ -57,7 +84,11 @@ $font-family: 'Open Sans', sans-serif;
       justify-content: center;
       align-items: center;
       i{
+<<<<<<< HEAD
+        padding-right: .7rem;
+=======
         padding-right: 7px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
       }
       p{
         margin: 0;
@@ -75,3 +106,22 @@ $font-family: 'Open Sans', sans-serif;
     }
   }
 }
+<<<<<<< HEAD
+
+.navbar-expand-lg .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 3rem;
+
+}
+
+.header-logo__logo2{
+  display: none;
+  @include respond(tab-extra) {
+    display: block;
+}
+}
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0

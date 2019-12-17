@@ -1,3 +1,110 @@
+<<<<<<< HEAD
+@import 'mixins';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+@include respond(phone) {
+  
+  .col-lg-12{
+    padding: 0 !important;
+}
+h1{
+  text-align: left !important;
+  font-size: 2.5rem !important;
+
+}
+
+p{
+  text-align: left !important;
+
+}
+ul{
+  width: 100% !important;
+
+  padding: 0 !important;
+}
+
+}
+}
+
+.navbar-brand{
+  img{   
+        @include respond(phone) {
+        
+          width: 25rem;
+        }
+  }
+
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 2.6rem 0;
+
+  @include respond(tab-extra) {
+      
+    display: none;
+  }
+
+
+
+  .header-logo__number {
+    a {
+      color: #004861;
+      font-family: "Segoe UI Regular", sans-serif;
+      font-size: 4.8rem;
+      font-weight: bold;
+      line-height: 5.5rem;
+      text-decoration: none;
+
+    }
+
+  }
+
+
+  .header-logo__pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: #005f84;
+      border-radius: 1rem;
+
+      span {
+        color: #ffffff;
+        font-family: "Segoe UI Regular", sans-serif;
+        font-size: 2.2rem;
+        font-weight: bold;
+        line-height: 5.5rem;
+        letter-spacing: -0.44px;
+        display: block;
+        padding: 0 0 0 2.3rem;
+      }
+
+      i {
+        color: #ffffff;
+        padding-left: 1.5rem;
+        padding-right: 2.6rem;
+        padding-top: .4rem;
+      }
+    }
+  }
+}
+
+=======
 *{
   padding: 0;
   margin: 0;
@@ -11,11 +118,15 @@
   padding-top: 26px;
 
 .header-logo__number{
-  color: #004861;
-  font-family:"Segoe UI Regular",sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 55px;
+  a{
+    color: #004861;
+    font-family:"Segoe UI Regular",sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 55px;
+    text-decoration: none;
+  }
+
 }
 
 .header-logo__pay{
@@ -26,7 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-decoration: none;
     background-color: #005f84;
     border-radius: 10px;
     span{
@@ -48,9 +159,26 @@
   }
 }
 }
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 @font-face {
   font-family: 'Segoe UI Regular';
   font-style: normal;
   font-weight: normal;
   src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
+<<<<<<< HEAD
+}
+.navbar-toggler{
+  border: none !important;
+}
+
+.blue{
+  color: #005f84 !important;
+  font-size: 3rem !important;
+  
+}
+button:focus{
+  outline-color: #005f84 !important;
+
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
 }

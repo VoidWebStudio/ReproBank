@@ -1,0 +1,173 @@
+<<<<<<< HEAD
+@import 'mixins';
+$font-family: 'Open Sans', sans-serif;
+.container-factors{
+  @include respond(phone) {
+    display: none;
+   }
+   
+=======
+$font-family: 'Open Sans', sans-serif;
+.container-factors{
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+  display: flex;
+  background-image: url("../img/bg-factors.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: -10%;
+  position: relative;
+  z-index: 1;
+  .container-main-factors{
+    .factors-header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+<<<<<<< HEAD
+      padding-top: 20rem;
+      padding-bottom: 4.9rem;
+      h1{
+        color: #005c80;
+        font-family: $font-family;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+        text-align: center;
+
+
+=======
+      padding-top: 200px;
+      padding-bottom: 49px;
+      h1{
+        color: #005c80;
+        font-family: $font-family;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+      }
+
+    }
+    .factors-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+<<<<<<< HEAD
+      @include respond(phone) {
+       display: none;
+      }
+      
+      img{
+        max-width: 126.3rem;
+=======
+      img{
+        max-width: 1263px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .factors-modern{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+<<<<<<< HEAD
+      padding-bottom: 13rem;
+      @include respond(phone) {
+        padding-bottom: 5rem;
+        
+      
+          }
+      h1{
+        color: #006085;
+        font-family: $font-family;
+        font-size: 2.4rem;
+        font-weight: 400;
+        line-height: 3.2rem;
+        text-align: center;
+                
+    @include respond(litte-phone) {
+      text-align: left !important;
+      
+        }
+=======
+      padding-bottom: 130px;
+      h1{
+        color: #006085;
+        font-family: $font-family;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32.03px;
+        text-align: center;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+      }
+      p{
+        color: #000000;
+        font-family: $font-family;
+<<<<<<< HEAD
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.2rem;
+        text-align: center;
+        padding-bottom: 2.4rem;
+=======
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32.03px;
+        text-align: center;
+        padding-bottom: 24px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+      }
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+<<<<<<< HEAD
+        padding: 0 5.1rem 0 3.1rem;
+        border-radius: 4px;
+        border: .2rem solid #006292;
+=======
+        padding: 0 51px 0 31px;
+        border-radius: 4px;
+        border: 2px solid #006292;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+        text-decoration: none;
+        span{
+          color: #006085;
+          font-family: $font-family;
+<<<<<<< HEAD
+          font-size: 1.6rem;
+          font-weight: 700;
+          line-height: 5.2rem;
+        }
+        i{
+          font-size: 1rem;
+          font-weight: bold;
+          color: #006085;
+          padding-left: 1.2rem;
+          padding-top: .5rem;
+=======
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 52.05px;
+        }
+        i{
+          font-size: 10px;
+          font-weight: bold;
+          color: #006085;
+          padding-left: 12px;
+          padding-top: 5px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+        }
+      }
+    }
+  }
+<<<<<<< HEAD
+}
+
+
+=======
+}
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0

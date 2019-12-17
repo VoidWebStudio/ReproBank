@@ -1,0 +1,106 @@
+<<<<<<< HEAD
+@import 'mixins';
+=======
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+$font-family: 'Open Sans', sans-serif;
+.container-doc{
+  background-image: url("../img/bg-doc.png");
+  background-size: cover;
+  background-position: center;
+  .doc-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+      color: #005f84;
+      font-family: $font-family;
+<<<<<<< HEAD
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 3.6rem;
+      max-width: 53%;
+      text-align: center;
+      
+@include respond(phone) {
+  max-width: 100%;
+}
+=======
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 35.95px;
+      max-width: 53%;
+      text-align: center;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+    }
+    p{
+      color: #000000;
+      font-family: $font-family;
+<<<<<<< HEAD
+      font-size: 2rem;
+      font-weight: 400;
+      max-width: 50%;
+      text-align: center;
+      line-height: 3.2rem;
+      padding-top: 2rem;
+      padding-bottom: 2.6rem;
+      @include respond(phone) {
+        max-width: 100%;
+      }
+=======
+      font-size: 20px;
+      font-weight: 400;
+      max-width: 50%;
+      text-align: center;
+      line-height: 31.96px;
+      padding-top: 26px;
+      padding-bottom: 26px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+    }
+    .doc-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+<<<<<<< HEAD
+      padding-bottom: 8.9rem;
+      @include respond(phone) {
+        padding: 0;
+        
+    }
+      h1{
+        color: #005f84;
+        font-family: $font-family;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+=======
+      padding-bottom: 89px;
+      h1{
+        color: #005f84;
+        font-family: $font-family;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+        width: 100%;
+      }
+      p{
+        color: #000000;
+        font-family: $font-family;
+<<<<<<< HEAD
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+=======
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+>>>>>>> 994641b0b6c61ca54ecbae6d02ad673ad387a4d0
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+}
